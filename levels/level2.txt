@@ -1,0 +1,49 @@
+# PacMan Configuration File - Level 2
+
+START_MAP
+xxxxxxxxxxxxxxxxxxxxxxxxx
+       x.........x       
+xxxxxx x.x.xxx.x.x xxxxxx
+x*.......x.xxx.x.......*x
+x.xxxxxx.x.xxx.x.xxxxxx.x
+x.x......x.xxx.x......x.x
+x.x.xxxx x.....x xxxx.x.x
+x......x xxxxxxx x......x
+xxxxxx.x         x.xxxxxx
+x......x ###=### x......x
+x.xxxx.x #     # x.xxxx.x
+x....x.  #######  .x....x
+xxxx.x.x         x.x.xxxx
+   x.x.xxx xxx xxx.x.x   
+   x.......xxx.......x   
+xxxx.xxxxx.xxx.xxxxx.xxxx
+    ...x...   ...x...    
+xxxx.x.x.xxxxxxx.x.x.xxxx
+x*...x......x......x...*x
+x.xxxx.xxxx.x.xxxx.xxxx.x
+x.......................x
+xxxxxxxxxxxxxxxxxxxxxxxxx
+END_MAP
+
+PACMAN_POSITIONS=12,16
+PACMAN_DIRECTIONS=LEFT
+MONSTER_POSITIONS=11,10;12,10;13,10;12,8
+MONSTER_DIRECTIONS=RIGHT;UP;LEFT;LEFT
+SPAWN_POSITION=12,10
+FRUIT_PATH=0,1;24,16
+PACMAN_SPEED=200
+MONSTER_SPEED=200
+MONSTER_VULNERABLE_SPEED=350
+MONSTER_DEAD_SPEED=75
+PILL_DURATION=5000
+PILL_WARNING=2000
+PACMAN_COLORS=255,255,0
+MONSTER_COLORS=0,252,216;248,184,216;248,184,64;248,0,0
+MONSTER_VULNERABLE_COLOR=0,0,204
+MONSTER_VULNERABLE_FLASH_COLOR=255,255,255
+MONSTER_DEAD_COLOR=255,255,255
+WALL_FILL_COLOR=102,102,255
+WALL_BORDER_COLOR=102,204,255
+BOX_COLOR=255,255,255
+FOOD_COLOR=255,255,102
+PILL_COLOR=255,255,102

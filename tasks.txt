@@ -1,0 +1,26 @@
+General
+- add fruit
+- add sounds
+- add high score
+- add support for 1/2 player standard games
+- add intro screen
+- improve AI
+- make penalty time configurable
+
+Engine
+- fix eat bug, eat food earlier
+- pause when eat monster
+- prevent monsters from entering box
+
+Graphics/User Interface
+- eyes on monsters
+- improve score indicator, etc
+- get ready text
+- game over text
+- score appear when eat monster
+
+No Time Soon
+- multiplayer online support
+- cartoons between levels
+- level editor
+

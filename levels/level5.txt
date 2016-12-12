@@ -1,0 +1,62 @@
+# PacMan Configuration File - Level 0
+
+START_MAP
+xxxxxxxxxxxxxxxxxxxxxxxxx
+x.......................x
+x.xxx.xxx.xxxxx.xxx.xxx.x
+x.x.....x.x...x.x.....x.x
+x*x.xxx.x.x.x.x.x.xxx.x*x
+x.x.x...x...x...x...x.x.x
+x.x.x.x.x.xxxxx.x.x.x.x.x
+x.....x...........x.....x
+x.xxxxx.xxxxxxxxx.xxxxx.x
+x.......         .......x
+xxxx.xxx ###=### xxx.xxxx
+   x.xxx #     # xxx.x   
+xxxx.xxx ####### xxx.xxxx
+ ......           ...... 
+x.xxxx.xxxx x xxxx.xxxx.x
+x.x.........x.........x.x
+x.x.x.xxx.xxxxx.xxx.x.x.x
+x...x...x... ...x...x...x
+x.x.xxx.x.xxxxx.x.xxx.x.x
+x*x.......x...x.......x*x
+x.xxxxxxx.x.x.x.xxxxxxx.x
+x...........x...........x
+xxxxxxxxxxxxxxxxxxxxxxxxx
+END_MAP
+
+PACMAN_POSITIONS=12,17
+PACMAN_DIRECTIONS=LEFT
+MONSTER_POSITIONS=11,11;12,11;13,11;12,9
+MONSTER_DIRECTIONS=RIGHT;UP;LEFT;LEFT
+SPAWN_POSITION=12,11
+FRUIT_PATH=0,5;24,14
+PACMAN_SPEED=170
+MONSTER_SPEED=170
+MONSTER_VULNERABLE_SPEED=200
+MONSTER_DEAD_SPEED=75
+PILL_DURATION=2000
+PILL_WARNING=2000
+PACMAN_COLORS=255,255,0
+MONSTER_COLORS=0,252,216;248,184,216;248,184,64;248,0,0
+MONSTER_VULNERABLE_COLOR=0,0,204
+MONSTER_VULNERABLE_FLASH_COLOR=255,255,255
+MONSTER_DEAD_COLOR=255,255,255
+WALL_FILL_COLOR=220,220,0
+WALL_BORDER_COLOR=123,123,0
+BOX_COLOR=255,255,255
+FOOD_COLOR=204,204,204
+PILL_COLOR=204,204,204
+
+# dark blue/purple
+#WALL_FILL_COLOR=0,153,153
+#WALL_BORDER_COLOR=51,51,153
+
+# yellow
+#WALL_FILL_COLOR=220,220,0
+#WALL_BORDER_COLOR=123,123,0
+
+# dark gray
+#WALL_FILL_COLOR=51,51,51
+#WALL_BORDER_COLOR=153,153,153
